@@ -1,0 +1,46 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: #FFD9C0;
+    
+}
+body{
+    background-image: url(../imgs/golden-sunset.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+p{
+    color: #FAF0D7;
+}
+button{
+    background-color: #FFD9C0 !important;
+    color: brown !important;
+    padding: 30px 50px !important;
+    font-size: x-large !important;
+    transition: .3s ease-in-out !important;
+}
+button:hover{
+    background-color: #FAF0D7 !important;
+}
+i.right{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    font-size: 60px;
+    color: #FFD9C0;
+    transform: rotate(30deg);
+}
+i.left{
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    font-size: 60px;
+    color: #FFD9C0;
+    transform: rotate(30deg);
+}
+@media screen and (max-width:776px){
+    h1{
+        font-size: 60px;
+    }
+}
